@@ -1,0 +1,8 @@
+#print("Ne", "Mutlu", "Türk'üm", "Diyene!")
+#print("Mustafa","Kemal","Atatürk")
+#print("=================================")
+#print("Ne", "Mutlu", "Türk'üm", "Diyene!", sep="/")
+#print("Mustafa","Kemal","Atatürk")
+#print("=================================")
+print("İstanbul","Artık","İyice", sep="-", end=">>\n")
+print("Çekilmez","Hal","Aldı", sep="*", end=".")
