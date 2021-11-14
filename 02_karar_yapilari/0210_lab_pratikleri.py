@@ -12,7 +12,7 @@ elif ort>=45:
     print(f"Ortalamanız {ort} ise Geçer")
 else:
     print("Kaldınız.")
-    """
+  """
 #endregion
 
 #region ornek_2
@@ -30,7 +30,7 @@ else:
 #region ornek_3
 """
 kullaniciAdi, password =str(input("Kullanıcı adı\t:")), str(input("Şifre\t:"))
-if kullaniciAdi=="admin":
+if kullaniciAdi=="sbartavv":
      if password=="123":
         print("Giriş Başarılı!")
      else:
