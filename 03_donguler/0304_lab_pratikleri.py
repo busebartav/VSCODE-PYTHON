@@ -30,18 +30,18 @@ while i<10:
 """
 
 # region ornek_4
-"""
+
 i = 0
 j = 0
 while i<10:
     while j<10:
-        print("hayat çk zor", end=" ")
+        print("hayat çuk zor", end=" ")
         j+=1
     i+=1
     j=0
     print()
 
-    """
+    
 
 # region ornek_5
 """ rom _typeshed import SupportsItemAccess
@@ -186,7 +186,7 @@ while i<5:
     * * *
       * *
         *
-"""
+
 
 i = 0
 j = 0
@@ -205,3 +205,26 @@ while i < 5:
     b = 0
     print()
 
+"""
+
+#region ornek_12
+"""
+i = 0
+j = 0
+while i < 10:
+    while j < 10:
+        if i%2==1:
+            if j%2==0:
+                print(" # ", end=" ")
+            else:
+                print(" $ ", end=" ")
+        else:
+            if j%2==0:
+                print(" $ ", end=" ")
+            else:
+                print(" # ", end=" ")
+        j += 1 
+    i += 1
+    j = 0
+    print ()
+"""
