@@ -1,0 +1,6 @@
+"""
+BURADA
+8.DERSİ
+TEKRAR
+EDECEĞİM
+"""
