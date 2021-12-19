@@ -32,10 +32,11 @@ req:
 3.mail argümanı gelmez ise ekrana @ yazılacak ++
 4.ad argümanı gelmez ise ekrana noname yazılacak++
 5.tcKimlik zorunlu++
-"""
+
 def kayitOl(tcKimlik, ad="noname", email="@"):
     print(f"Kimlik numarası ={tcKimlik}, İsim={ad}, email={email}")
 
 kayitOl(1111)
 kayitOl(23456789, "Buse")
-kayitOl(99999, "Hasan", "hasan@gmail.com")
+kayitOl(99999, "Hasan", "hasan@gmail.com")"""
+#endregion
