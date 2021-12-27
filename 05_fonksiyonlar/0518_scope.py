@@ -36,3 +36,32 @@ for i in range(1,30):
     ciftSayiUret()
 print(tekilListe)
 """
+# region ornek_8
+"""
+not→ fonksiyona argüman olarak LIST gönderdiğimizde, fonksiyon scope’unda DEL ile LIST'i silmek, 
+main bloktaki o listeyi DEĞİŞTİRİR.
+"""
+"""
+def scopeTest(arg):
+    print(arg)
+    del arg[0]
+
+
+
+liste = [19, 34]
+scopeTest(liste)
+print(liste)
+"""
+# endregion
+
+# region Not
+# Peki Neden?
+"""
+arg = [19, 34, 35] bu değişiklik listeyi değiştirmiyor, 
+listenin elemanlarını değiştiriyor. 
+Bu durumda liste elemanlarını değiştirmek main kısmındaki listeyi değiştirmez.
+del arg[0] bu değişiklik 
+listeyi değiştiriyor. 
+Bu durumda listeyi değiştirmek main kısmındaki listenin de değişmesine neden olur.
+"""
+# endregion
